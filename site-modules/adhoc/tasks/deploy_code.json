@@ -1,0 +1,10 @@
+{
+  "description": "Deploys the latest code environment(s). Can only be run on the PE master.",
+  "input_method": "environment",
+  "parameters": {
+    "environment": {
+      "description": "Optionally provide the name of the environment to deploy",
+      "type": "Optional[String[1]]"
+    }
+  }
+}
